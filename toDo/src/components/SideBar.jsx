@@ -1,9 +1,9 @@
 
 
 // eslint-disable-next-line react/prop-types
-function Header({ children }){
+function SideBar({ children }){
     return(
-        <div className="Header">
+        <div className="SideBar">
             {
                 children
             }
@@ -11,4 +11,4 @@ function Header({ children }){
     )
 }
 
-export default Header;
+export default SideBar;

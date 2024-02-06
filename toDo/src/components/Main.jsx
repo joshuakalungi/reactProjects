@@ -3,7 +3,7 @@
 // eslint-disable-next-line react/prop-types
 function Main({ children }){
     return(
-        <div className="Header">
+        <div className="Main">
             {
                 children
             }
