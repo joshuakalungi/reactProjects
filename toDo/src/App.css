@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* all selector styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+
 /* App styling */
 
 .App {
@@ -8,14 +20,22 @@
 }
 
 /* sideBar stylings */
-.sideBar {
-  width: 20%;
+.SideBar {
+  width: 300px;
+  min-width: 210px;
   height: 100%;
-  background-color: #f5f5f5;
-  display: flex;
+  background-color: aqua;
+ /* display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.1); */
+}
+
+/* mainContent stylings */
+.Main {
+  width: 100%;
+  background: url('./images/pexels-pixabay-459335.jpg');
+  background-size: cover;
 }
