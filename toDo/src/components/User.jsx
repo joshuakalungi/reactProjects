@@ -4,7 +4,14 @@
 function User(){
     return(
         <div className="User">
-            <h1>User</h1>
+            <div className="logo">
+                <img src="https://www.docplanner.com/img/sygnet.png" alt="logo"/>
+            </div>
+            <div className="info">
+                <p>Effortlessly manage tasks, stay focused, and boost productivity</p>
+                <a href="#">Logout</a>
+            </div>
+
         </div>
     )
 }

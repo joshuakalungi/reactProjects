@@ -36,6 +36,38 @@
 /* mainContent stylings */
 .Main {
   width: 100%;
-  background: url('./images/pexels-pixabay-459335.jpg');
+  background-image: url('./images/pexels-pixabay-459335.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* user styling*/
+.User {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  border: 1px solid #ebebeb;
+}
+
+.User .logo img{
+  width: 50px;
+  margin-right: 20px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  padding: 05px;
+}
+
+.User .info p{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.User .info a{
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: 300;
+  display:  flex;
+  justify-content: flex-end;
 }
