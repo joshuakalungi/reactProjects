@@ -63,6 +63,15 @@
   font-weight: bold;
 }
 
+.User .info .other{
+  font-size: 1rem;
+  font-weight: bold;
+  color: blue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 .User .info a{
   text-decoration: none;
   color: #000;

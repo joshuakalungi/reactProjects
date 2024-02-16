@@ -8,7 +8,8 @@ function User(){
                 <img src="https://www.docplanner.com/img/sygnet.png" alt="logo"/>
             </div>
             <div className="info">
-                <p>Effortlessly manage tasks, stay focused, and boost productivity</p>
+                <p>ProspectForge</p>
+                <p className="other">Technologies</p>
                 <a href="#">Logout</a>
             </div>
 
