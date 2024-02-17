@@ -81,7 +81,24 @@
   justify-content: flex-end;
 }
 
-/*  */
+/* Modal */
+.Modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8)
+
+}
+
+.Modal .container {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  /* transform: translate(-50%, -25%); */
+  background: white;
+}
 
 /* AddNewTodo */
 .AddNewTodo {

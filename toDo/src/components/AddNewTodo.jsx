@@ -13,6 +13,8 @@ function AddNewTodo(){
             <Modal showModal={showModal} setShowModal={setShowModal}>
                 <div>
                     Hello World
+                    <button onClick={()=>setShowModal(false)}>Hide
+                    </button>
                 </div>
             </Modal>
         </div>
