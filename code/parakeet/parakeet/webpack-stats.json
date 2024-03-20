@@ -1,0 +1,16 @@
+{
+  "status": "done",
+  "assets": {
+    "app-668872a2281eb0c52bc2.js": {
+      "name": "app-668872a2281eb0c52bc2.js",
+      "path": "/Users/jesse/code/django-react-heroku-s3/parakeet/web/static/bundles/app-668872a2281eb0c52bc2.js",
+      "publicPath": "/static/bundles/app-668872a2281eb0c52bc2.js"
+    }
+  },
+  "chunks": {
+    "app": [
+      "app-668872a2281eb0c52bc2.js"
+    ]
+  },
+  "publicPath": "/static/bundles/"
+}
