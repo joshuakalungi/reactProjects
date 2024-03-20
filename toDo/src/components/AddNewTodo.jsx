@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import Modal from './Modal';
+import { Bell } from 'react-bootstrap-icons';
+
+
+
 // eslint-disable-next-line react/prop-types
 function AddNewTodo(){
     const [showModal, setShowModal] = useState(false);
@@ -17,7 +21,10 @@ function AddNewTodo(){
                     <div className='text'>
                         <h3>Add new to do</h3>
                         <input type='text' value={text} onChange={(e)=>setText(e.target.value)} placeholder='To do ...' autoFocus/>
-
+                    </div>
+                    <div className='remind'>
+                        <Bell />
+                        <p> Remind Me!</p>git
                     </div>
                 </form>
             </Modal>
@@ -25,4 +32,4 @@ function AddNewTodo(){
     ) 
 }
 
-export default AddNewTodo;
+export default AddNewTodo;438B-C90F   A5B8-7957
