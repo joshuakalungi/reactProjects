@@ -1,11 +1,11 @@
-
+import logo from "../images/logo.png"
 
 // eslint-disable-next-line react/prop-types
 function User(){
     return(
         <div className="User">
             <div className="logo">
-                <img src="https://www.docplanner.com/img/sygnet.png" alt="logo"/>
+                <img src={ logo } alt="logo"/>
             </div>
             <div className="info">
                 <p>ProspectForge</p>
