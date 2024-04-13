@@ -46,7 +46,7 @@
 .User {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 1rem;
   border: 1px solid #ebebeb;
 }
@@ -54,8 +54,8 @@
 .User .logo img{
   width: 80px;
   margin-right: 30px;
-  border-radius: 100px;
-  border: 1px solid #000;
+  /* border-radius: 100px; */
+  border: 2px solid #000;
   padding: 10px;
 }
 
