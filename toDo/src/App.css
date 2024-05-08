@@ -389,10 +389,10 @@
   transition: background 300ms ease-in-out;
 }
 
-.Project .btns .edit-delete span .edit:hover{
+.Project .btns .edit-delete span.edit:hover{
   background: #acffac;
 }
 
-.Project .btns .edit-delete span .delete:hover{
+.Project .btns .edit-delete span.delete:hover{
   background: #ffacac;
 }
