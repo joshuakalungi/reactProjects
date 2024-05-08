@@ -1,10 +1,15 @@
+import { Plus } from "react-bootstrap-icons";
 
 
 // eslint-disable-next-line react/prop-types
 function AddNewProject(){
     return(
         <div className="AddNewProject">
-            <h1>AddNewProject</h1>
+            <div className="add-button">
+                <span>
+                    <Plus size="20"/>
+                </span>
+            </div>
         </div>
     )
 }
