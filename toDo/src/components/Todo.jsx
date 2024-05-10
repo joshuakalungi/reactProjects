@@ -1,10 +1,9 @@
+/* eslint-disable react/prop-types */
 
-
-// eslint-disable-next-line react/prop-types
-function Todo(){
+function Todo({todo}){
     return(
         <div className="Todo">
-            <h1>Todo</h1>
+            {todo.text}
         </div>
     )
 }
