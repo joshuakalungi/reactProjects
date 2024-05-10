@@ -7,7 +7,7 @@ const ProjectForm = ({handleSubmit, heading, value, setValue, setShowModal, conf
         <h3>{heading}</h3>
         <input 
             value={value}
-            onClick={(e)=> setValue(e.target.value)}
+            onChange={(e)=> setValue(e.target.value)}
             type='text'
             placeholder='project name....'
             autoFocus

@@ -1,9 +1,13 @@
 /* eslint-disable react/prop-types */
 import { Pencil, XCircle } from "react-bootstrap-icons";
 import RenameProject from "./RenameProject";
+import Modal from './Modal';
+import { useState } from "react";
 
 // eslint-disable-next-line react/prop-types
 function Project( {project, edit }){
+    const [showModal, setShowModal] = useState(false)
+
     return(
         <div className="Project">
             <div className="name">
@@ -13,7 +17,7 @@ function Project( {project, edit }){
                 {
                     edit ? 
                     <div className="edit-delete">
-                        <span className="edit">
+                        <span className="edit" onClick={()=> setShowModal(true)}>
                             <Pencil size="13" />
                         </span>
                         <span className="delete">
@@ -28,6 +32,9 @@ function Project( {project, edit }){
                 }
                 
             </div>
+            <Modal showModal={showModal} setShowModal={setShowModal}>
+                <RenameProject project={project} setShowModal={setShowModal}/>
+            </Modal>
         </div>
     )
 }
